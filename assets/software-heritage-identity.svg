@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="240" viewBox="0 0 1120 240" role="img" aria-labelledby="title desc">
+  <title id="title">Identifying a package's source tree by content</title>
+  <desc id="desc">Unpack a package archive, compute the directory SWHID from its file tree, then query Software Heritage. An archived tree can be retrieved by its identifier.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#57068c"/>
+    </marker>
+  </defs>
+  <g fill="#eee8f4" stroke="#a58ab9" stroke-width="2">
+    <rect x="2" y="42" width="230" height="126" rx="12"/>
+    <rect x="298" y="42" width="230" height="126" rx="12"/>
+    <rect x="594" y="42" width="230" height="126" rx="12"/>
+    <rect x="890" y="42" width="228" height="126" rx="12"/>
+  </g>
+  <g stroke="#57068c" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M240 105 H286"/>
+    <path d="M536 105 H582"/>
+    <path d="M832 105 H878"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#71647c" font-size="19">
+      <text x="264" y="26">unpack</text>
+      <text x="560" y="26">hash</text>
+      <text x="856" y="26">look up</text>
+    </g>
+    <g fill="#57068c" font-size="24" font-weight="700">
+      <text x="117" y="82">Package Archive</text>
+      <text x="413" y="82">Extracted Tree</text>
+      <text x="709" y="82">Directory SWHID</text>
+      <text x="1004" y="82">SWH Archive</text>
+    </g>
+    <g fill="#241b30" font-size="21">
+      <text x="117" y="120">Published files</text>
+      <text x="413" y="120">Contents and paths</text>
+      <text x="1004" y="116">Retrieve the tree</text>
+      <text x="1004" y="144">if archived</text>
+    </g>
+    <text x="709" y="120" font-family="Menlo, Consolas, monospace" font-size="18" fill="#241b30">swh:1:dir:&lt;hash&gt;</text>
+    <text x="560" y="215" font-size="22" fill="#574563">A release archive and a Git checkout can contain different file trees.</text>
+  </g>
+</svg>
