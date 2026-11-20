@@ -26,16 +26,6 @@ marp slides.md --pptx --output dist/slides.pptx
 
 PDF and PowerPoint exports require a supported browser installed locally (Chrome, Edge, or Firefox). Marp's standard PowerPoint export uses slide images; edit the Markdown source to make changes.
 
-## Authoring
-
-- Separate slides with `---`.
-- Add speaker notes in HTML comments.
-- Use `<!-- _class: lead -->` for a purple title or section slide.
-- Put images in `assets/` and reference them with Markdown image syntax.
-- Keep slide text short; put examples, references, and teaching prompts in notes.
-
-The nine-slide outline assumes **software** supply chain security. It is a starting point, not a completed lecture: add your name/date, tune it for the course and duration, and develop a sourced case study.
-
 ## References
 
 - [Marp](https://marp.app/)
