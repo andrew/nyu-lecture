@@ -112,7 +112,7 @@ Package registries, dependency files, and source repositories contain different 
 - All open source: Ruby on Rails, PostgreSQL, and Redis
 - About 9.8 TB across 25 live PostgreSQL databases
 - About 44 billion rows, including 28 billion dependency records
-- Around 1.7 trillion requests per month
+- Around 1.7 billion requests per month
 
 <!-- _class: source -->
 
